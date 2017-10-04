@@ -483,6 +483,7 @@ ul.extrapages li a {
     border: none;
     float: right;
     width: 17%;
+    min-height:36px;
 }
 .btn-default.mailinglist-submit:hover, 
 .btn-default.mailinglist-submit:focus {
@@ -499,6 +500,9 @@ ul.extrapages li a {
     float: left;
     margin-right: 20px;
     line-height: 13px;
+}
+#home.page-content {
+    padding-bottom:0;
 }
 .subscribe input[type="radio"] {
     margin: 0;
@@ -669,7 +673,7 @@ span.freeshipping {
     font-style: italic;
     text-transform: none;
     padding: 0;
-    margin: 0 0 10px;
+    margin: 0 0 35px;
     position: relative;
     border: none;
 }
