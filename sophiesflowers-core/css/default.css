@@ -610,13 +610,15 @@ span.freeshipping {
     color: #585858;
 }
 .product-item .on-sale-badge {
-	line-height: 20px;
-	padding: 5px;
-	width: 50px;
-	text-align: center;
-	top: 5px;
-	right: 20px;
-	background: rgba(93, 38, 59, 0.85);
+    border-radius: 100%;
+    line-height: 20px;
+    padding:15px 0;
+    height:50px;
+    width:50px;
+    text-align: center;
+    top: 5px;
+    right: 20px;
+    background: rgba(93, 38, 59, 0.85);
 }
 .product-item .img {
     min-height: 304px;
@@ -679,9 +681,6 @@ span.freeshipping {
         z-index:1;
     }
 .products-section h2:after {
-}
-.home-page-content {
-	padding-bottom: 0;
 }
 .home-page-content .category-footer {
     padding: 0px 0 0px;
