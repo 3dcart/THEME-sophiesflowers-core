@@ -44,7 +44,9 @@ h1 {
     font-weight: 600;
     letter-spacing: 0;
 }
-
+.product-items.productList .product-item .img a {
+    position: initial;
+}
 .subcategories {
     border-bottom: 1px solid #ececec;
     padding: 0 0 30px;
