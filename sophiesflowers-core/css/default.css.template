@@ -8,6 +8,21 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .page-content {
 	flex: 1 0 auto;
 }
@@ -694,7 +709,7 @@ span.freeshipping {
     margin: 15px auto;
 }
 .head-mobile-nav > a {
-    color: #d4c3bd;
+    color: #fff;
     font-size: 22px;
     line-height: 1;
 }
