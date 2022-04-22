@@ -827,6 +827,13 @@ span.freeshipping {
         position: absolute;
 		right: 0;
     }
+	.product-item .img {
+		min-height: auto;
+		background-color: transparent;
+	}
+	.product-item .img img {
+		position: initial;
+	}
 }
 @media(max-width: 767px) {
     .products-section h2, .home-page-content .category-header h3,.products-section h1 {
